@@ -1,0 +1,52 @@
+@import "../../utils/weSwiper/weSwiper.wxss";
+
+.we-slide {
+  color: #FFFFFF;
+  font-size: 1rem;
+}
+
+.we-slide:nth-child(1) {
+  background-color: #4390EE
+}
+
+.we-slide:nth-child(2) {
+  background-color: #CA4040
+}
+
+.we-slide:nth-child(3) {
+  background-color: #FF8604
+}
+
+.we-slide:nth-child(4) {
+  background-color: #FFFFFF;
+  color: #000000
+}
+
+.info {
+  margin: 16px;
+}
+
+text {
+  display: block;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+.scope {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.contacts {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.address {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
