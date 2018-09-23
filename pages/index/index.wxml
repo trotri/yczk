@@ -1,67 +1,72 @@
 <view class="container">
     <swiper indicator-dots="" vertical="true" duration="500">
       <swiper-item style="transform: translate(0px, 0%)">
-        <view class="swiper-item-1">
+        <view class="swiper-item">
           <image class="bg" mode="aspectFill" src="../../imgs/library.jpg"></image>
           <view class="shadow"></view>
-          <view class="info">
-            <text class="title">云创制课</text>
-            <text>由礼颂文化传媒（北京）有限公司于2015年成立。</text>
-            <text>专注于教育信息化及智能交互技术的高科技企业。</text>
-            <text>专业录课室出租、精品课录制、网络课件制作、视频加工包装、现场拍摄、宣传片拍摄。</text>
-            <text>为培训机构、名师、院校等单位提供一站式专业网校系统技术服务。</text>
+          <view class="info_wrap">
+            <view class="info">
+              <text class="title">云创制课</text>
+              <text>由礼颂文化传媒（北京）有限公司于2015年成立。</text>
+              <text>专注于教育信息化及智能交互技术的高科技企业。</text>
+              <text>专业录课室出租、精品课录制、网络课件制作、视频加工包装、现场拍摄、宣传片拍摄。</text>
+              <text>为培训机构、名师、院校等单位提供一站式专业网校系统技术服务。</text>
+            </view>
           </view>
         </view>
       </swiper-item>
       <swiper-item style="transform: translate(0px, 100%)">
-        <view class="swiper-item-2">
+        <view class="swiper-item">
           <image class="bg" mode="aspectFit" src="../../imgs/film.png"></image>
           <view class="shadow"></view>
-          <view class="info">
-            <text class="title">主营业务</text>
-            <view class="scope-wrap">
-              <view class="scope">
-                <image src="../../imgs/ppt.png"></image>
-                <text>标准课件制作</text>
+          <view class="info_wrap">
+            <view class="info">
+              <text class="title">主营业务</text>
+              <view class="scope-wrap">
+                <view class="scope">
+                  <image src="../../imgs/ppt.png"></image>
+                  <text>标准课件制作</text>
+                </view>
+                <view class="scope">
+                  <image src="../../imgs/camera.png"></image>
+                  <text>慕课微课录制</text>
+                </view>
               </view>
-              <view class="scope">
-                <image src="../../imgs/camera.png"></image>
-                <text>慕课微课录制</text>
-              </view>
-            </view>
-            <view class="scope-wrap">
-              <view class="scope">
-                <image src="../../imgs/customize.png"></image>
-                <text>个性视频定制</text>
-              </view>
-              <view class="scope">
-                <image src="../../imgs/classroom.png"></image>
-                <text>录课室搭建</text>
+              <view class="scope-wrap">
+                <view class="scope">
+                  <image src="../../imgs/customize.png"></image>
+                  <text>个性视频定制</text>
+                </view>
+                <view class="scope">
+                  <image src="../../imgs/classroom.png"></image>
+                  <text>录课室搭建</text>
+                </view>
               </view>
             </view>
           </view>
         </view>
       </swiper-item>
       <swiper-item style="transform: translate(0px, 200%)">
-        <view class="swiper-item-3">
+        <view class="swiper-item">
           <image class="bg" mode="aspectFill" src="../../imgs/map.png"></image>
           <view class="shadow"></view>
-          <view class="info">
-            <text class="title">联系我们</text>
-            <view class="contacts">
-              <image class="icon" src="../../imgs/phone.png"></image>
-              <text selectable="true" bindtap="doCopy" data-text="13366631316">13366631316</text>
-            </view>
-            <view class="contacts">
-              <image class="icon" src="../../imgs/address.png" style="margin-top: 18px"></image>
-              <text selectable="true" bindtap="doCopy" data-text="北京市海淀区中关村南大街48号九龙商务中心B座412室。">北京市海淀区中关村南大街48号九龙商务中心B座412室。</text>
-            </view>
-            <view class="contacts">
-              <image class="icon" src="../../imgs/metro.png" style="margin-top: 18px"></image>
-              <text selectable="true" bindtap="doCopy" data-text="国家图书馆站，4号线或9号线，B出口往北约100米。">国家图书馆站，4号线或9号线，B出口往北约100米。</text>
-            </view>
-            <view>
-              <text class="tips">轻点复制整行文字，长按选择复制区域。</text>
+          <view class="info_wrap">
+            <view class="info">
+              <view class="contacts">
+                <image class="icon" src="../../imgs/phone.png"></image>
+                <text selectable="true" bindtap="doCopy" data-text="13366631316">13366631316</text>
+              </view>
+              <view class="contacts">
+                <image class="icon" src="../../imgs/address.png" style="margin-top: 18px"></image>
+                <text selectable="true" bindtap="doCopy" data-text="北京市海淀区中关村南大街48号九龙商务中心B座412室。">北京市海淀区中关村南大街48号九龙商务中心B座412室。</text>
+              </view>
+              <view class="contacts">
+                <image class="icon" src="../../imgs/metro.png" style="margin-top: 18px"></image>
+                <text selectable="true" bindtap="doCopy" data-text="国家图书馆站，4号线或9号线，B出口往北约100米。">国家图书馆站，4号线或9号线，B出口往北约100米。</text>
+              </view>
+              <view>
+                <text class="tips">轻点复制整行文字，长按选择复制区域。</text>
+              </view>
             </view>
           </view>
         </view>
